@@ -3,7 +3,7 @@
 <img src="./header.svg" alt="Annanya Mishra — Software Engineer, Full-Stack and AI Developer" width="100%" />
 
 <a href="https://github.com/Annanyamishra04">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1600&color=7DD3FC&center=true&vCenter=true&width=640&height=40&lines=Building+AI-powered+products;Full-Stack+%26+AI+Developer;Turning+ideas+into+working+software;Building+with+React%2C+Python+%26+AI" alt="Rotating tagline" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1600&color=7DD3FC&center=true&vCenter=true&width=700&height=40&lines=Building+AI+products+that+actually+ship;Full-Stack+Engineer+%7C+React%2C+Node+%26+Python;From+LLM+APIs+to+production-ready+apps;Turning+ideas+into+software+people+use;Open+to+SDE+%26+AI%2FML+roles" alt="Rotating tagline" />
 </a>
 
 </div>
