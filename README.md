@@ -181,8 +181,8 @@ const annanya = {
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="48" height="48" alt="PostgreSQL" /><br/>PostgreSQL</td>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=supabase&theme=dark" width="48" height="48" alt="Supabase" /><br/>Supabase</td>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=sklearn&theme=dark" width="48" height="48" alt="scikit-learn" /><br/>scikit-learn</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=pandas&theme=dark" width="48" height="48" alt="Pandas" /><br/>Pandas</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=numpy&theme=dark" width="48" height="48" alt="NumPy" /><br/>NumPy</td>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/pandas/E70488" width="48" height="48" alt="Pandas" /><br/>Pandas</td>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/numpy/4DABCF" width="48" height="48" alt="NumPy" /><br/>NumPy</td>
     <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/spacy/09A3D5" width="48" height="48" alt="spaCy" /><br/>spaCy</td>
   </tr>
   <tr>
@@ -279,4 +279,3 @@ const annanya = {
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7dd3fc,100:2e3440&height=100&section=footer" alt="" width="100%" />
 
 </div>
-
