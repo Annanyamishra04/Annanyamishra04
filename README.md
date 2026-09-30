@@ -174,7 +174,11 @@ const annanya = {
 <!--START_ACTIVITY-->
 | Repository | Latest commit | Date |
 | --- | --- | --- |
-| Updating soon... | | |
+| [Nexora](https://github.com/Annanyamishra04/Nexora) | update readme | 2026-09-26 |
+| [Mailora](https://github.com/Annanyamishra04/Mailora) | Simplify README | 2026-09-23 |
+| [AffordIQ](https://github.com/Annanyamishra04/AffordIQ) | Rename project to AffordIQ and update README | 2026-09-17 |
+| [TypeForge](https://github.com/Annanyamishra04/TypeForge) | Revise README with project overview and setup | 2026-09-15 |
+| [Interview-Lab](https://github.com/Annanyamishra04/Interview-Lab) | Update README with live URL | 2026-09-15 |
 <!--END_ACTIVITY-->
 
 </div>
