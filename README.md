@@ -21,10 +21,12 @@ Currently open to software engineering and AI/ML roles.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Open%20to%20Work-Software%20Engineering%20%26%20AI%2FML%20Opportunities-7dd3fc?style=flat-square&labelColor=2e3440" alt="Open to work" />
+<img src="https://img.shields.io/badge/OPEN%20TO%20WORK-SOFTWARE%20ENGINEERING%20%26%20AI%2FML-7dd3fc?style=for-the-badge&labelColor=2e3440" alt="Open to work" />
+
 <br/>
-<img src="https://komarev.com/ghpvc/?username=Annanyamishra04&label=Profile%20Views&color=7dd3fc&labelColor=2e3440&style=flat-square" alt="Profile views" />
-<a href="https://github.com/Annanyamishra04?tab=followers"><img src="https://img.shields.io/github/followers/Annanyamishra04?label=Followers&color=7dd3fc&labelColor=2e3440&style=flat-square" alt="Followers" /></a>
+
+<img src="https://komarev.com/ghpvc/?username=Annanyamishra04&label=PROFILE+VIEWS&color=7dd3fc&labelColor=2e3440&style=for-the-badge" alt="Profile views" />
+<a href="https://github.com/Annanyamishra04?tab=followers"><img src="https://img.shields.io/github/followers/Annanyamishra04?label=FOLLOWERS&style=for-the-badge&color=7dd3fc&labelColor=2e3440&logo=github&logoColor=7dd3fc" alt="Followers" /></a>
 
 <br/><br/>
 
@@ -43,7 +45,7 @@ const annanya = {
   launchedProjects: ["Mailora", "TypeForge"],
   certifications: ["AWS Cloud Practitioner Essentials", "Oracle Foundation Associate", "HackerRank 5-Star"],
   status: "Open to work",
-  openTo: ["Software Engineering", "SDE", "Full-Stack Development", "AI/ML"],
+  openTo: ["Software Engineering", "SDE / SDE-I", "Full-Stack Development", "AI/ML"],
 };
 ```
 
