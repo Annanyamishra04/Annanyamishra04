@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2e3440"/><stop offset="1" stop-color="#7dd3fc"/></linearGradient></defs>
+<rect width="1200" height="240" fill="url(#b)"/>
+<g fill="#eceff4">
+<circle cx="120" cy="50" r="2"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.5s" repeatCount="indefinite"/></circle>
+<circle cx="300" cy="90" r="1.5"><animate attributeName="opacity" values="1;0.1;1" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="520" cy="40" r="2"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="760" cy="70" r="1.5"><animate attributeName="opacity" values="1;0.1;1" dur="2.8s" repeatCount="indefinite"/></circle>
+<circle cx="980" cy="45" r="2"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.2s" repeatCount="indefinite"/></circle>
+<circle cx="1120" cy="100" r="1.5"><animate attributeName="opacity" values="1;0.1;1" dur="2.2s" repeatCount="indefinite"/></circle>
+</g>
+<path d="M0 205 Q150 175 300 205 T600 205 T900 205 T1200 205 V240 H0Z" fill="#2e3440" opacity="0.55"><animate attributeName="d" dur="6s" repeatCount="indefinite" values="M0 205 Q150 175 300 205 T600 205 T900 205 T1200 205 V240 H0Z;M0 205 Q150 235 300 205 T600 205 T900 205 T1200 205 V240 H0Z;M0 205 Q150 175 300 205 T600 205 T900 205 T1200 205 V240 H0Z"/></path>
+<text x="600" y="108" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="700" fill="#eceff4">Annanya Mishra</text>
+<text x="600" y="152" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#eceff4">Software Engineer • Full-Stack &amp; AI Developer</text>
+</svg>
