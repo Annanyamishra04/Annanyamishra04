@@ -167,6 +167,18 @@ const annanya = {
 
 </div>
 
+## Recent Activity
+
+<div align="center">
+
+<!--START_ACTIVITY-->
+| Repository | Latest commit | Date |
+| --- | --- | --- |
+| Updating soon... | | |
+<!--END_ACTIVITY-->
+
+</div>
+
 ## Contribution Graph
 
 <div align="center">
