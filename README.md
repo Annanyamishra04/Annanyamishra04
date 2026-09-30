@@ -193,7 +193,7 @@ const annanya = {
     <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/render/46E3B7" width="48" height="48" alt="Render" /><br/>Render</td>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="48" height="48" alt="Git" /><br/>Git</td>
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" height="48" alt="GitHub" /><br/>GitHub</td>
-    <td align="center" width="12.5%"><img src="./assets/cicd.svg" width="48" height="48" alt="CI/CD" /><br/>CI/CD</td>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/githubactions/2088FF" width="48" height="48" alt="CI/CD" /><br/>CI/CD</td>
   </tr>
 </table>
 
