@@ -43,7 +43,7 @@ const annanya = {
   launchedProjects: ["Mailora", "TypeForge"],
   certifications: ["AWS Cloud Practitioner Essentials", "Oracle Foundation Associate", "HackerRank 5-Star"],
   status: "Open to work",
-  openTo: ["Software Engineering", "SDE / SDE-I", "Full-Stack Development", "AI/ML"],
+  openTo: ["Software Engineering", "SDE", "Full-Stack Development", "AI/ML"],
 };
 ```
 
