@@ -1,0 +1,45 @@
+name: Update Recent Activity
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: |
+          python3 - <<'PYEOF'
+          import os, json, re, urllib.request
+          tok, user = os.environ["GH_TOKEN"], os.environ["GH_USER"]
+          def api(p):
+              req = urllib.request.Request("https://api.github.com" + p, headers={"Authorization": "Bearer " + tok, "Accept": "application/vnd.github+json"})
+              return json.load(urllib.request.urlopen(req))
+          repos = [r for r in api(f"/users/{user}/repos?sort=pushed&per_page=10") if not r["fork"] and r["name"] != user][:5]
+          rows = []
+          for r in repos:
+              try:
+                  c = api(f"/repos/{user}/{r['name']}/commits?per_page=1")[0]
+              except Exception:
+                  continue
+              msg = c["commit"]["message"].split("\n")[0].replace("|", "/")[:70]
+              date = c["commit"]["author"]["date"][:10]
+              rows.append(f"| [{r['name']}]({r['html_url']}) | {msg} | {date} |")
+          md = "| Repository | Latest commit | Date |\n| --- | --- | --- |\n" + "\n".join(rows)
+          s = open("README.md").read()
+          new = re.sub(r"(<!--START_ACTIVITY-->).*?(<!--END_ACTIVITY-->)", lambda m: m.group(1) + "\n" + md + "\n" + m.group(2), s, flags=re.S)
+          if new != s:
+              open("README.md", "w").write(new)
+          PYEOF
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || (git commit -m "Update recent activity" && git push)
