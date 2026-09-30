@@ -25,7 +25,7 @@
 <table align="center">
   <tr>
     <td align="center" width="220">
-      <img src="./photo.png" width="180" alt="Annanya Mishra" /><br/>
+      <img src="https://avatars.githubusercontent.com/u/169334091?v=4&s=400" width="180" alt="Annanya Mishra" /><br/>
       <b>Annanya Mishra</b><br/>
       <sub>CSE &amp; AI · PSIT Kanpur · 2026</sub>
     </td>
