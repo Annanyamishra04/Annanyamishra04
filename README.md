@@ -8,20 +8,16 @@
 
 </div>
 
-<table align="center">
-  <tr>
-    <td align="center" width="260">
-      <img src="./profile.svg" width="230" alt="Annanya Mishra" /><br/>
-      <b>Annanya Mishra</b><br/>
-      <sub>CSE &amp; AI · PSIT Kanpur · 2026</sub>
-    </td>
-    <td align="left">
-      Computer Science &amp; AI graduate building full-stack web applications and AI-powered software.<br/><br/>
-      From React and Next.js interfaces to Node.js and Python backends, I ship products people can open and use.<br/><br/>
-      Currently open to software engineering and AI/ML roles.
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+<img src="./profile.svg" width="260" alt="Annanya Mishra" />
+
+<br/>
+
+Computer Science &amp; AI graduate building full-stack web applications and AI-powered software.<br/>
+Currently open to software engineering and AI/ML roles.
+
+</div>
 
 <div align="center">
 
@@ -31,13 +27,6 @@
 <a href="https://github.com/Annanyamishra04?tab=followers"><img src="https://img.shields.io/github/followers/Annanyamishra04?label=Followers&color=7dd3fc&labelColor=2e3440&style=flat-square" alt="Followers" /></a>
 
 <br/><br/>
-
-<a href="#who-i-am">Who I Am</a> &nbsp;·&nbsp;
-<a href="#featured-projects">Projects</a> &nbsp;·&nbsp;
-<a href="#tech-stack">Tech Stack</a> &nbsp;·&nbsp;
-<a href="#certifications">Certifications</a> &nbsp;·&nbsp;
-<a href="#github-stats">Stats</a> &nbsp;·&nbsp;
-<a href="#connect">Connect</a>
 
 </div>
 
@@ -172,11 +161,6 @@ const annanya = {
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Annanyamishra04&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc" alt="GitHub stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Annanyamishra04&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc" alt="Top languages" />
-
-<br/>
-
 <img src="https://streak-stats.demolab.com?user=Annanyamishra04&theme=nord&border=7dd3fc&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc" alt="Contribution streak" />
 
 </div>
@@ -186,8 +170,6 @@ const annanya = {
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Annanyamishra04/Annanyamishra04/output/github-snake-dark.svg" alt="Contribution snake animation" width="100%" />
-
-<img src="https://ghchart.rshah.org/7dd3fc/Annanyamishra04" alt="Contribution graph" width="100%" />
 
 </div>
 
