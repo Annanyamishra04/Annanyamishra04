@@ -151,6 +151,9 @@ const annanya = {
     <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/vitest/00FF74" width="48" height="48" alt="Vitest" /><br/>Vitest</td>
     <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/jsonwebtokens/ffffff" width="48" height="48" alt="JWT" /><br/>JWT</td>
   </tr>
+  <tr>
+    <td align="center" colspan="8"><img src="https://img.shields.io/badge/Inngest-242938?style=for-the-badge&labelColor=242938&color=242938&logoColor=34d399&label=%E2%9A%A1" alt="Inngest" /></td>
+  </tr>
 </table>
 
 <sub>Also: Machine Learning · NLP · MCP · AI application development</sub>
