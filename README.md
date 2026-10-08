@@ -25,8 +25,11 @@ Currently open to software engineering and AI/ML roles.
 
 <br/>
 
+<img src="./stats.svg" width="100%" alt="GitHub followers, following, repositories and stars" />
+
+<br/>
+
 <img src="https://komarev.com/ghpvc/?username=Annanyamishra04&label=PROFILE+VIEWS&color=7dd3fc&labelColor=2e3440&style=for-the-badge" alt="Profile views" />
-<a href="https://github.com/Annanyamishra04?tab=followers"><img src="https://img.shields.io/github/followers/Annanyamishra04?label=FOLLOWERS&style=for-the-badge&color=7dd3fc&labelColor=2e3440&logo=github&logoColor=7dd3fc" alt="Followers" /></a>
 
 <br/><br/>
 
@@ -45,7 +48,7 @@ const annanya = {
   launchedProjects: ["Mailora", "TypeForge"],
   certifications: ["AWS Cloud Practitioner Essentials", "Oracle Foundation Associate", "HackerRank 5-Star"],
   status: "Open to work",
-  openTo: ["Software Engineering", "SDE", "Full-Stack Development", "AI/ML"],
+  openTo: ["Software Engineering", "SDE / SDE-I", "Full-Stack Development", "AI/ML"],
 };
 ```
 
@@ -109,38 +112,48 @@ const annanya = {
     <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="48" height="48" alt="CSS" /><br/>CSS</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="48" height="48" alt="React" /><br/>React.js</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="48" height="48" alt="Next.js" /><br/>Next.js</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="48" height="48" alt="Tailwind" /><br/>Tailwind CSS</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=vite&theme=dark" width="48" height="48" alt="Vite" /><br/>Vite</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="48" height="48" alt="Node.js" /><br/>Node.js</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=express&theme=dark" width="48" height="48" alt="Express" /><br/>Express.js</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=flask&theme=dark" width="48" height="48" alt="Flask" /><br/>Flask</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="48" height="48" alt="FastAPI" /><br/>FastAPI</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="48" height="48" alt="React.js" /><br/>React.js</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="48" height="48" alt="Next.js" /><br/>Next.js</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="48" height="48" alt="Tailwind CSS" /><br/>Tailwind CSS</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=vite&theme=dark" width="48" height="48" alt="Vite" /><br/>Vite</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="48" height="48" alt="Node.js" /><br/>Node.js</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=express&theme=dark" width="48" height="48" alt="Express.js" /><br/>Express.js</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=flask&theme=dark" width="48" height="48" alt="Flask" /><br/>Flask</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="48" height="48" alt="FastAPI" /><br/>FastAPI</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="48" height="48" alt="MongoDB" /><br/>MongoDB</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="48" height="48" alt="MySQL" /><br/>MySQL</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="48" height="48" alt="PostgreSQL" /><br/>PostgreSQL</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=supabase&theme=dark" width="48" height="48" alt="Supabase" /><br/>Supabase</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=sklearn&theme=dark" width="48" height="48" alt="scikit-learn" /><br/>scikit-learn</td>
-    <td align="center"><img src="https://cdn.simpleicons.org/pandas/E70488" width="48" height="48" alt="Pandas" /><br/>Pandas</td>
-    <td align="center"><img src="https://cdn.simpleicons.org/numpy/4DABCF" width="48" height="48" alt="NumPy" /><br/>NumPy</td>
-    <td align="center"><img src="https://cdn.simpleicons.org/spacy/09A3D5" width="48" height="48" alt="spaCy" /><br/>spaCy</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="48" height="48" alt="MongoDB" /><br/>MongoDB</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="48" height="48" alt="MySQL" /><br/>MySQL</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="48" height="48" alt="PostgreSQL" /><br/>PostgreSQL</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=supabase&theme=dark" width="48" height="48" alt="Supabase" /><br/>Supabase</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=sklearn&theme=dark" width="48" height="48" alt="scikit-learn" /><br/>scikit-learn</td>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/pandas/E70488" width="48" height="48" alt="Pandas" /><br/>Pandas</td>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/numpy/4DABCF" width="48" height="48" alt="NumPy" /><br/>NumPy</td>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/spacy/09A3D5" width="48" height="48" alt="spaCy" /><br/>spaCy</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://cdn.simpleicons.org/huggingface/FFD21E" width="48" height="48" alt="Hugging Face" /><br/>Hugging Face</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=aws&theme=dark" width="48" height="48" alt="AWS" /><br/>AWS</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=docker&theme=dark" width="48" height="48" alt="Docker" /><br/>Docker</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=vercel&theme=dark" width="48" height="48" alt="Vercel" /><br/>Vercel</td>
-    <td align="center"><img src="https://cdn.simpleicons.org/render/46E3B7" width="48" height="48" alt="Render" /><br/>Render</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="48" height="48" alt="Git" /><br/>Git</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" height="48" alt="GitHub" /><br/>GitHub</td>
-    <td align="center"><img src="https://cdn.simpleicons.org/githubactions/2088FF" width="48" height="48" alt="CI/CD" /><br/>CI/CD</td>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/huggingface/FFD21E" width="48" height="48" alt="Hugging Face" /><br/>Hugging Face</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=aws&theme=dark" width="48" height="48" alt="AWS" /><br/>AWS</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=docker&theme=dark" width="48" height="48" alt="Docker" /><br/>Docker</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=vercel&theme=dark" width="48" height="48" alt="Vercel" /><br/>Vercel</td>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/render/46E3B7" width="48" height="48" alt="Render" /><br/>Render</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="48" height="48" alt="Git" /><br/>Git</td>
+    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" height="48" alt="GitHub" /><br/>GitHub</td>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/githubactions/2088FF" width="48" height="48" alt="CI/CD" /><br/>CI/CD</td>
+  </tr>
+  <tr>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/framer/0055FF" width="48" height="48" alt="Framer Motion" /><br/>Framer Motion</td>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/axios/5A29E4" width="48" height="48" alt="Axios" /><br/>Axios</td>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/mongoose/C23B3B" width="48" height="48" alt="Mongoose" /><br/>Mongoose</td>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/cloudinary/3448C5" width="48" height="48" alt="Cloudinary" /><br/>Cloudinary</td>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/googlegemini/8E75B2" width="48" height="48" alt="Gemini API" /><br/>Gemini API</td>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/modelcontextprotocol/ffffff" width="48" height="48" alt="MCP" /><br/>MCP</td>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/vitest/00FF74" width="48" height="48" alt="Vitest" /><br/>Vitest</td>
+    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/jsonwebtokens/ffffff" width="48" height="48" alt="JWT" /><br/>JWT</td>
   </tr>
 </table>
 
-<sub>Also: Machine Learning · NLP · AI application development</sub>
+<sub>Also: Machine Learning · NLP · MCP · AI application development</sub>
 
 </div>
 
@@ -174,11 +187,7 @@ const annanya = {
 <!--START_ACTIVITY-->
 | Repository | Latest commit | Date |
 | --- | --- | --- |
-| [Thumblify](https://github.com/Annanyamishra04/Thumblify) | Add README for Thumblify project | 2026-10-05 |
-| [DeskBridge](https://github.com/Annanyamishra04/DeskBridge) | Rename Freshdesk Connector to DeskBridge | 2026-10-02 |
-| [Nexora](https://github.com/Annanyamishra04/Nexora) | update readme | 2026-09-26 |
-| [Mailora](https://github.com/Annanyamishra04/Mailora) | Simplify README | 2026-09-23 |
-| [AffordIQ](https://github.com/Annanyamishra04/AffordIQ) | Rename project to AffordIQ and update README | 2026-09-17 |
+| Updating soon... | | |
 <!--END_ACTIVITY-->
 
 </div>
