@@ -190,7 +190,11 @@ const annanya = {
 <!--START_ACTIVITY-->
 | Repository | Latest commit | Date |
 | --- | --- | --- |
-| Updating soon... | | |
+| [Thumblify](https://github.com/Annanyamishra04/Thumblify) | Add README for Thumblify project | 2026-10-05 |
+| [DeskBridge](https://github.com/Annanyamishra04/DeskBridge) | Rename Freshdesk Connector to DeskBridge | 2026-10-02 |
+| [Nexora](https://github.com/Annanyamishra04/Nexora) | update readme | 2026-09-26 |
+| [Mailora](https://github.com/Annanyamishra04/Mailora) | Simplify README | 2026-09-23 |
+| [AffordIQ](https://github.com/Annanyamishra04/AffordIQ) | Rename project to AffordIQ and update README | 2026-09-17 |
 <!--END_ACTIVITY-->
 
 </div>
