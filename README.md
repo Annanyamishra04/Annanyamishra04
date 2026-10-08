@@ -3,7 +3,7 @@
 <img src="./header.svg" alt="Annanya Mishra — Software Engineer, Full-Stack and AI Developer" width="100%" />
 
 <a href="https://github.com/Annanyamishra04">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1600&color=7DD3FC&center=true&vCenter=true&width=760&height=40&lines=Clean+code.+Scalable+systems.+Real+impact.;I+turn+ideas+into+production-ready+software;React+%C2%B7+Node.js+%C2%B7+Python+%C2%B7+AWS;Open+to+SDE+%26+AI%2FML+roles" alt="Rotating tagline" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1600&color=34d399&center=true&vCenter=true&width=760&height=40&lines=Clean+code.+Scalable+systems.+Real+impact.;I+turn+ideas+into+production-ready+software;React+%C2%B7+Node.js+%C2%B7+Python+%C2%B7+AWS;Open+to+SDE+%26+AI%2FML+roles" alt="Rotating tagline" />
 </a>
 
 </div>
@@ -21,7 +21,7 @@ Currently open to software engineering and AI/ML roles.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/OPEN%20TO%20WORK-SOFTWARE%20ENGINEERING%20%26%20AI%2FML-7dd3fc?style=for-the-badge&labelColor=2e3440" alt="Open to work" />
+<img src="https://img.shields.io/badge/OPEN%20TO%20WORK-SOFTWARE%20ENGINEERING%20%26%20AI%2FML-34d399?style=for-the-badge&labelColor=0f2a20" alt="Open to work" />
 
 <br/>
 
@@ -29,13 +29,13 @@ Currently open to software engineering and AI/ML roles.
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Annanyamishra04&label=PROFILE+VIEWS&color=7dd3fc&labelColor=2e3440&style=for-the-badge" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=Annanyamishra04&label=PROFILE+VIEWS&color=34d399&labelColor=0f2a20&style=for-the-badge" alt="Profile views" />
 
 <br/><br/>
 
 </div>
 
----
+<div align="center"><img src="./divider.svg" width="100%" alt="" /></div>
 
 ## Who I Am
 
@@ -52,7 +52,7 @@ const annanya = {
 };
 ```
 
----
+<div align="center"><img src="./divider.svg" width="100%" alt="" /></div>
 
 ## Featured Projects
 
@@ -69,8 +69,8 @@ const annanya = {
 
 **Capabilities:** subject and body generation · Direct / Warm / Formal tones · length control · email rewriting · reply generation · saved, searchable history · favorite emails and templates · authentication
 
-<a href="https://mailora-beta.vercel.app/"><img src="https://img.shields.io/badge/Live%20Demo-mailora--beta.vercel.app-7dd3fc?style=for-the-badge&labelColor=2e3440" alt="Mailora live demo" /></a>
-<a href="https://github.com/Annanyamishra04?tab=repositories"><img src="https://img.shields.io/badge/View%20Code-GitHub-2e3440?style=for-the-badge&color=7dd3fc&logo=github&logoColor=7dd3fc" alt="Source code" /></a>
+<a href="https://mailora-beta.vercel.app/"><img src="https://img.shields.io/badge/Live%20Demo-mailora--beta.vercel.app-34d399?style=for-the-badge&labelColor=0f2a20" alt="Mailora live demo" /></a>
+<a href="https://github.com/Annanyamishra04?tab=repositories"><img src="https://img.shields.io/badge/View%20Code-GitHub-0b1f17?style=for-the-badge&color=34d399&logo=github&logoColor=34d399" alt="Source code" /></a>
 
 <br/>
 
@@ -87,14 +87,14 @@ const annanya = {
 
 **Capabilities:** typing practice · authentication · user statistics · leaderboards · achievements · AI Coach · certificate generation
 
-<a href="https://type-forge-sable.vercel.app/"><img src="https://img.shields.io/badge/Live%20Demo-type--forge--sable.vercel.app-7dd3fc?style=for-the-badge&labelColor=2e3440" alt="TypeForge live demo" /></a>
-<a href="https://github.com/Annanyamishra04?tab=repositories"><img src="https://img.shields.io/badge/View%20Code-GitHub-2e3440?style=for-the-badge&color=7dd3fc&logo=github&logoColor=7dd3fc" alt="Source code" /></a>
+<a href="https://type-forge-sable.vercel.app/"><img src="https://img.shields.io/badge/Live%20Demo-type--forge--sable.vercel.app-34d399?style=for-the-badge&labelColor=0f2a20" alt="TypeForge live demo" /></a>
+<a href="https://github.com/Annanyamishra04?tab=repositories"><img src="https://img.shields.io/badge/View%20Code-GitHub-0b1f17?style=for-the-badge&color=34d399&logo=github&logoColor=34d399" alt="Source code" /></a>
 
 <br/>
 
 **Also built:** YouTube Transcript Summarizer (React/Vite, Flask, spaCy, Hugging Face BART/T5) · AI Health Diagnosis (scikit-learn, AWS SageMaker, Streamlit) · MERN Quiz Application · Phishing Detection · RetailShield AI · SentinelAI · Centific Aegis AI portal
 
----
+<div align="center"><img src="./divider.svg" width="100%" alt="" /></div>
 
 ## Tech Stack
 
@@ -157,7 +157,7 @@ const annanya = {
 
 </div>
 
----
+<div align="center"><img src="./divider.svg" width="100%" alt="" /></div>
 
 ## Certifications
 
@@ -170,13 +170,13 @@ const annanya = {
 
 <sub>Virtual experiences are job simulations, not professional employment.</sub>
 
----
+<div align="center"><img src="./divider.svg" width="100%" alt="" /></div>
 
 ## GitHub Stats
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Annanyamishra04&theme=nord&border=7dd3fc&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc" alt="Contribution streak" />
+<img src="https://streak-stats.demolab.com?user=Annanyamishra04&background=0b1f17&border=1f4d3a&ring=34d399&fire=34d399&currStreakNum=ecfdf5&sideNums=ecfdf5&currStreakLabel=34d399&sideLabels=9fb5aa&dates=9fb5aa" alt="Contribution streak" />
 
 </div>
 
@@ -200,17 +200,17 @@ const annanya = {
 
 </div>
 
----
+<div align="center"><img src="./divider.svg" width="100%" alt="" /></div>
 
 ## Connect
 
 <div align="center">
 
-<a href="https://github.com/Annanyamishra04"><img src="https://img.shields.io/badge/GitHub-Annanyamishra04-2e3440?style=for-the-badge&color=7dd3fc&logo=github&logoColor=7dd3fc" alt="GitHub" /></a>
-<a href="https://www.linkedin.com/in/annanya-mishra-370405295/"><img src="https://img.shields.io/badge/LinkedIn-Annanya%20Mishra-2e3440?style=for-the-badge&color=7dd3fc" alt="LinkedIn" /></a>
+<a href="https://github.com/Annanyamishra04"><img src="https://img.shields.io/badge/GitHub-Annanyamishra04-0b1f17?style=for-the-badge&color=34d399&logo=github&logoColor=34d399" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/annanya-mishra-370405295/"><img src="https://img.shields.io/badge/LinkedIn-Annanya%20Mishra-0b1f17?style=for-the-badge&color=34d399" alt="LinkedIn" /></a>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7dd3fc,100:2e3440&height=100&section=footer" alt="" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:34d399,100:0b1f17&height=100&section=footer" alt="" width="100%" />
 
 </div>
