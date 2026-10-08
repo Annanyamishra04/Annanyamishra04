@@ -22,24 +22,25 @@ jobs:
               req = urllib.request.Request("https://api.github.com" + p, headers={"Authorization": "Bearer " + tok, "Accept": "application/vnd.github+json"})
               return json.load(urllib.request.urlopen(req))
           def make_stats(vals):
-              items=[("Followers",vals[0],"#60a5fa",'<circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.6 2.7-6 6-6s6 2.4 6 6"/><circle cx="17" cy="9" r="2.4"/><path d="M17 14c2.6 0 4.2 1.8 4.2 4.5"/>'),
-                     ("Repositories",vals[1],"#fb923c",'<rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M3.5 9.2h17M3.5 14.8h17M9.2 3.5v17M14.8 3.5v17"/>'),
+              items=[("Followers",vals[0],"#34d399",'<circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.6 2.7-6 6-6s6 2.4 6 6"/><circle cx="17" cy="9" r="2.4"/><path d="M17 14c2.6 0 4.2 1.8 4.2 4.5"/>'),
+                     ("Repositories",vals[1],"#2dd4bf",'<rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M3.5 9.2h17M3.5 14.8h17M9.2 3.5v17M14.8 3.5v17"/>'),
                      ("Stars",vals[2],"#facc15",'<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/>'),
-                     ("Yearly Commits",vals[3],"#818cf8",'<path d="M4 4.5h16v11H9.5L4 20z"/><path d="M12 7.5v5M9.5 10h5"/>')]
+                     ("Yearly Commits",vals[3],"#7dd3fc",'<path d="M4 4.5h16v11H9.5L4 20z"/><path d="M12 7.5v5M9.5 10h5"/>')]
               w,h,g=232,86,16
-              d=['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 96" width="1000" height="96"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12242c"/><stop offset="1" stop-color="#0a121c"/></linearGradient><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>']
-              for i,(lab,v,col,shape) in enumerate(items):
+              d=['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 96" width="1000" height="96"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f2a20"/><stop offset="1" stop-color="#0a1812"/></linearGradient><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.08"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>']
+              for i in range(len(items)):
                   d.append(f'<clipPath id="c{i}"><rect width="{w}" height="{h}" rx="16"/></clipPath>')
               d.append('</defs>')
               for i,(lab,v,col,shape) in enumerate(items):
-                  x=i*(w+g)+10
-                  d.append(f'<g transform="translate({x},5)"><rect width="{w}" height="{h}" rx="16" fill="url(#bg)" stroke="{col}" stroke-opacity="0.35"/>'
+                  x=i*(w+g)+10; t=0.15+i*0.3
+                  d.append(f'<g transform="translate({x},5)"><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="{t:.2f}s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 16" to="0 0" begin="{t:.2f}s" dur="0.6s" fill="freeze"/>'
+                           f'<rect width="{w}" height="{h}" rx="16" fill="url(#bg)" stroke="#34d399" stroke-opacity="0.35"/>'
                            f'<g clip-path="url(#c{i})"><rect x="0" y="{h-4}" width="{w}" height="4" fill="{col}" opacity="0.85"/>'
                            f'<rect y="0" width="70" height="{h}" fill="url(#sh)"><animate attributeName="x" values="-80;{w+10};{w+10}" keyTimes="0;0.5;1" dur="{5+i*0.7:.1f}s" repeatCount="indefinite"/></rect></g>'
-                           f'<circle cx="46" cy="41" r="25" fill="{col}" fill-opacity="0.14"><animate attributeName="fill-opacity" values="0.10;0.22;0.10" dur="3s" repeatCount="indefinite"/></circle>'
+                           f'<circle cx="46" cy="41" r="25" fill="{col}" fill-opacity="0.14"><animate attributeName="fill-opacity" values="0.10;0.24;0.10" dur="3s" begin="{i*0.4:.1f}s" repeatCount="indefinite"/></circle>'
                            f'<g transform="translate(33,28) scale(1.08)" fill="none" stroke="{col}" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">{shape}</g>'
-                           f'<text x="86" y="42" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#ffffff">{v}</text>'
-                           f'<text x="87" y="63" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#94a3b8">{lab}</text></g>')
+                           f'<text x="86" y="42" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#ecfdf5">{v}</text>'
+                           f'<text x="87" y="63" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#9fb5aa">{lab}</text></g></g>')
               d.append('</svg>')
               return ''.join(d)
           def short(n):
