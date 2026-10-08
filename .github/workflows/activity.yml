@@ -21,6 +21,29 @@ jobs:
           def api(p):
               req = urllib.request.Request("https://api.github.com" + p, headers={"Authorization": "Bearer " + tok, "Accept": "application/vnd.github+json"})
               return json.load(urllib.request.urlopen(req))
+          def make_stats(vals):
+              items=[("Followers",vals[0],"#60a5fa",'<circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.6 2.7-6 6-6s6 2.4 6 6"/><circle cx="17" cy="9" r="2.4"/><path d="M17 14c2.6 0 4.2 1.8 4.2 4.5"/>'),
+                     ("Repositories",vals[1],"#fb923c",'<rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M3.5 9.2h17M3.5 14.8h17M9.2 3.5v17M14.8 3.5v17"/>'),
+                     ("Stars",vals[2],"#facc15",'<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/>'),
+                     ("Yearly Commits",vals[3],"#818cf8",'<path d="M4 4.5h16v11H9.5L4 20z"/><path d="M12 7.5v5M9.5 10h5"/>')]
+              w,h,g=232,86,16
+              d=['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 96" width="1000" height="96"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12242c"/><stop offset="1" stop-color="#0a121c"/></linearGradient><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>']
+              for i,(lab,v,col,shape) in enumerate(items):
+                  d.append(f'<clipPath id="c{i}"><rect width="{w}" height="{h}" rx="16"/></clipPath>')
+              d.append('</defs>')
+              for i,(lab,v,col,shape) in enumerate(items):
+                  x=i*(w+g)+10
+                  d.append(f'<g transform="translate({x},5)"><rect width="{w}" height="{h}" rx="16" fill="url(#bg)" stroke="{col}" stroke-opacity="0.35"/>'
+                           f'<g clip-path="url(#c{i})"><rect x="0" y="{h-4}" width="{w}" height="4" fill="{col}" opacity="0.85"/>'
+                           f'<rect y="0" width="70" height="{h}" fill="url(#sh)"><animate attributeName="x" values="-80;{w+10};{w+10}" keyTimes="0;0.5;1" dur="{5+i*0.7:.1f}s" repeatCount="indefinite"/></rect></g>'
+                           f'<circle cx="46" cy="41" r="25" fill="{col}" fill-opacity="0.14"><animate attributeName="fill-opacity" values="0.10;0.22;0.10" dur="3s" repeatCount="indefinite"/></circle>'
+                           f'<g transform="translate(33,28) scale(1.08)" fill="none" stroke="{col}" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">{shape}</g>'
+                           f'<text x="86" y="42" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#ffffff">{v}</text>'
+                           f'<text x="87" y="63" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#94a3b8">{lab}</text></g>')
+              d.append('</svg>')
+              return ''.join(d)
+          def short(n):
+              return f"{n/1000:.1f}k" if n >= 1000 else str(n)
           repos = [r for r in api(f"/users/{user}/repos?sort=pushed&per_page=10") if not r["fork"] and r["name"] != user][:5]
           rows = []
           for r in repos:
@@ -32,6 +55,16 @@ jobs:
               date = c["commit"]["author"]["date"][:10]
               rows.append(f"| [{r['name']}]({r['html_url']}) | {msg} | {date} |")
           md = "| Repository | Latest commit | Date |\n| --- | --- | --- |\n" + "\n".join(rows)
+          u = api(f"/users/{user}")
+          allrepos = api(f"/users/{user}/repos?per_page=100")
+          stars = sum(r["stargazers_count"] for r in allrepos if not r["fork"])
+          try:
+              q = {"query": 'query { user(login: "%s") { contributionsCollection { contributionCalendar { totalContributions } } } }' % user}
+              req = urllib.request.Request("https://api.github.com/graphql", data=json.dumps(q).encode(), headers={"Authorization": "Bearer " + tok})
+              commits = short(json.load(urllib.request.urlopen(req))["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"])
+          except Exception:
+              commits = "-"
+          open("stats.svg", "w").write(make_stats([short(u["followers"]), short(u["public_repos"]), short(stars), commits]))
           s = open("README.md").read()
           new = re.sub(r"(<!--START_ACTIVITY-->).*?(<!--END_ACTIVITY-->)", lambda m: m.group(1) + "\n" + md + "\n" + m.group(2), s, flags=re.S)
           if new != s:
@@ -41,5 +74,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md stats.svg
           git diff --cached --quiet || (git commit -m "Update recent activity" && git push)
