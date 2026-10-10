@@ -102,57 +102,58 @@ const annanya = {
 
 <table>
   <tr>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="48" height="48" alt="Python" /><br/>Python</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="48" height="48" alt="C++" /><br/>C++</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="48" height="48" alt="Java" /><br/>Java</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="48" height="48" alt="JavaScript" /><br/>JavaScript</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="48" height="48" alt="TypeScript" /><br/>TypeScript</td>
-    <td align="center" width="12.5%"><img src="./sql.svg" width="48" height="48" alt="SQL" /><br/>SQL</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="48" height="48" alt="HTML" /><br/>HTML</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="48" height="48" alt="CSS" /><br/>CSS</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="48" height="48" alt="Python" /><br/>Python</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="48" height="48" alt="C++" /><br/>C++</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="48" height="48" alt="Java" /><br/>Java</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="48" height="48" alt="JavaScript" /><br/>JavaScript</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="48" height="48" alt="TypeScript" /><br/>TypeScript</td>
+    <td align="center" width="14%"><img src="./sql.svg" width="48" height="48" alt="SQL" /><br/>SQL</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="48" height="48" alt="HTML" /><br/>HTML</td>
   </tr>
   <tr>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="48" height="48" alt="React.js" /><br/>React.js</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="48" height="48" alt="Next.js" /><br/>Next.js</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="48" height="48" alt="Tailwind CSS" /><br/>Tailwind CSS</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=vite&theme=dark" width="48" height="48" alt="Vite" /><br/>Vite</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="48" height="48" alt="Node.js" /><br/>Node.js</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=express&theme=dark" width="48" height="48" alt="Express.js" /><br/>Express.js</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=flask&theme=dark" width="48" height="48" alt="Flask" /><br/>Flask</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="48" height="48" alt="FastAPI" /><br/>FastAPI</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="48" height="48" alt="CSS" /><br/>CSS</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="48" height="48" alt="React.js" /><br/>React.js</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="48" height="48" alt="Next.js" /><br/>Next.js</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="48" height="48" alt="Tailwind CSS" /><br/>Tailwind CSS</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=vite&theme=dark" width="48" height="48" alt="Vite" /><br/>Vite</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="48" height="48" alt="Node.js" /><br/>Node.js</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=express&theme=dark" width="48" height="48" alt="Express.js" /><br/>Express.js</td>
   </tr>
   <tr>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="48" height="48" alt="MongoDB" /><br/>MongoDB</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="48" height="48" alt="MySQL" /><br/>MySQL</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="48" height="48" alt="PostgreSQL" /><br/>PostgreSQL</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=supabase&theme=dark" width="48" height="48" alt="Supabase" /><br/>Supabase</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=sklearn&theme=dark" width="48" height="48" alt="scikit-learn" /><br/>scikit-learn</td>
-    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/pandas/E70488" width="48" height="48" alt="Pandas" /><br/>Pandas</td>
-    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/numpy/4DABCF" width="48" height="48" alt="NumPy" /><br/>NumPy</td>
-    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/spacy/09A3D5" width="48" height="48" alt="spaCy" /><br/>spaCy</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=flask&theme=dark" width="48" height="48" alt="Flask" /><br/>Flask</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="48" height="48" alt="FastAPI" /><br/>FastAPI</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="48" height="48" alt="MongoDB" /><br/>MongoDB</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="48" height="48" alt="MySQL" /><br/>MySQL</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="48" height="48" alt="PostgreSQL" /><br/>PostgreSQL</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=supabase&theme=dark" width="48" height="48" alt="Supabase" /><br/>Supabase</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=sklearn&theme=dark" width="48" height="48" alt="scikit-learn" /><br/>scikit-learn</td>
   </tr>
   <tr>
-    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/huggingface/FFD21E" width="48" height="48" alt="Hugging Face" /><br/>Hugging Face</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=aws&theme=dark" width="48" height="48" alt="AWS" /><br/>AWS</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=docker&theme=dark" width="48" height="48" alt="Docker" /><br/>Docker</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=vercel&theme=dark" width="48" height="48" alt="Vercel" /><br/>Vercel</td>
-    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/render/46E3B7" width="48" height="48" alt="Render" /><br/>Render</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="48" height="48" alt="Git" /><br/>Git</td>
-    <td align="center" width="12.5%"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" height="48" alt="GitHub" /><br/>GitHub</td>
-    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/githubactions/2088FF" width="48" height="48" alt="CI/CD" /><br/>CI/CD</td>
+    <td align="center" width="14%"><img src="https://cdn.simpleicons.org/pandas/E70488" width="48" height="48" alt="Pandas" /><br/>Pandas</td>
+    <td align="center" width="14%"><img src="https://cdn.simpleicons.org/numpy/4DABCF" width="48" height="48" alt="NumPy" /><br/>NumPy</td>
+    <td align="center" width="14%"><img src="https://cdn.simpleicons.org/spacy/09A3D5" width="48" height="48" alt="spaCy" /><br/>spaCy</td>
+    <td align="center" width="14%"><img src="https://cdn.simpleicons.org/huggingface/FFD21E" width="48" height="48" alt="Hugging Face" /><br/>Hugging Face</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=aws&theme=dark" width="48" height="48" alt="AWS" /><br/>AWS</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=docker&theme=dark" width="48" height="48" alt="Docker" /><br/>Docker</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=vercel&theme=dark" width="48" height="48" alt="Vercel" /><br/>Vercel</td>
   </tr>
   <tr>
-    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/framer/0055FF" width="48" height="48" alt="Framer Motion" /><br/>Framer Motion</td>
-    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/axios/5A29E4" width="48" height="48" alt="Axios" /><br/>Axios</td>
-    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/mongoose/C23B3B" width="48" height="48" alt="Mongoose" /><br/>Mongoose</td>
-    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/cloudinary/3448C5" width="48" height="48" alt="Cloudinary" /><br/>Cloudinary</td>
-    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/googlegemini/8E75B2" width="48" height="48" alt="Gemini API" /><br/>Gemini API</td>
-    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/modelcontextprotocol/ffffff" width="48" height="48" alt="MCP" /><br/>MCP</td>
-    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/vitest/00FF74" width="48" height="48" alt="Vitest" /><br/>Vitest</td>
-    <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/jsonwebtokens/ffffff" width="48" height="48" alt="JWT" /><br/>JWT</td>
+    <td align="center" width="14%"><img src="https://cdn.simpleicons.org/render/46E3B7" width="48" height="48" alt="Render" /><br/>Render</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="48" height="48" alt="Git" /><br/>Git</td>
+    <td align="center" width="14%"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" height="48" alt="GitHub" /><br/>GitHub</td>
+    <td align="center" width="14%"><img src="https://cdn.simpleicons.org/githubactions/2088FF" width="48" height="48" alt="CI/CD" /><br/>CI/CD</td>
+    <td align="center" width="14%"><img src="https://cdn.simpleicons.org/framer/0055FF" width="48" height="48" alt="Framer Motion" /><br/>Framer Motion</td>
+    <td align="center" width="14%"><img src="https://cdn.simpleicons.org/axios/5A29E4" width="48" height="48" alt="Axios" /><br/>Axios</td>
+    <td align="center" width="14%"><img src="https://cdn.simpleicons.org/mongoose/C23B3B" width="48" height="48" alt="Mongoose" /><br/>Mongoose</td>
   </tr>
   <tr>
-    <td align="center" colspan="8"><img src="https://github.com/inngest.png?size=96" width="48" height="48" alt="Inngest" /><br/>Inngest</td>
+    <td align="center" width="14%"><img src="https://cdn.simpleicons.org/cloudinary/3448C5" width="48" height="48" alt="Cloudinary" /><br/>Cloudinary</td>
+    <td align="center" width="14%"><img src="https://cdn.simpleicons.org/googlegemini/8E75B2" width="48" height="48" alt="Gemini API" /><br/>Gemini API</td>
+    <td align="center" width="14%"><img src="https://cdn.simpleicons.org/modelcontextprotocol/ffffff" width="48" height="48" alt="MCP" /><br/>MCP</td>
+    <td align="center" width="14%"><img src="https://cdn.simpleicons.org/vitest/00FF74" width="48" height="48" alt="Vitest" /><br/>Vitest</td>
+    <td align="center" width="14%"><img src="https://cdn.simpleicons.org/jsonwebtokens/ffffff" width="48" height="48" alt="JWT" /><br/>JWT</td>
+    <td align="center" width="14%"><img src="https://github.com/inngest.png?size=96" width="48" height="48" alt="Inngest" /><br/>Inngest</td>
+    <td></td>
   </tr>
 </table>
 
@@ -190,7 +191,11 @@ const annanya = {
 <!--START_ACTIVITY-->
 | Repository | Latest commit | Date |
 | --- | --- | --- |
-| Updating soon... | | |
+| [Thumblify](https://github.com/Annanyamishra04/Thumblify) | Add README for Thumblify project | 2026-10-05 |
+| [DeskBridge](https://github.com/Annanyamishra04/DeskBridge) | Rename Freshdesk Connector to DeskBridge | 2026-10-02 |
+| [Nexora](https://github.com/Annanyamishra04/Nexora) | update readme | 2026-09-26 |
+| [Mailora](https://github.com/Annanyamishra04/Mailora) | Simplify README | 2026-09-23 |
+| [AffordIQ](https://github.com/Annanyamishra04/AffordIQ) | Rename project to AffordIQ and update README | 2026-09-17 |
 <!--END_ACTIVITY-->
 
 </div>
