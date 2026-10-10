@@ -152,7 +152,7 @@ const annanya = {
     <td align="center" width="12.5%"><img src="https://cdn.simpleicons.org/jsonwebtokens/ffffff" width="48" height="48" alt="JWT" /><br/>JWT</td>
   </tr>
   <tr>
-    <td align="center" colspan="8"><img src="https://img.shields.io/badge/Inngest-242938?style=for-the-badge&labelColor=242938&color=242938&logoColor=34d399&label=%E2%9A%A1" alt="Inngest" /></td>
+    <td align="center" colspan="8"><img src="https://github.com/inngest.png?size=96" width="48" height="48" alt="Inngest" /><br/>Inngest</td>
   </tr>
 </table>
 
@@ -190,11 +190,7 @@ const annanya = {
 <!--START_ACTIVITY-->
 | Repository | Latest commit | Date |
 | --- | --- | --- |
-| [Thumblify](https://github.com/Annanyamishra04/Thumblify) | Add README for Thumblify project | 2026-10-05 |
-| [DeskBridge](https://github.com/Annanyamishra04/DeskBridge) | Rename Freshdesk Connector to DeskBridge | 2026-10-02 |
-| [Nexora](https://github.com/Annanyamishra04/Nexora) | update readme | 2026-09-26 |
-| [Mailora](https://github.com/Annanyamishra04/Mailora) | Simplify README | 2026-09-23 |
-| [AffordIQ](https://github.com/Annanyamishra04/AffordIQ) | Rename project to AffordIQ and update README | 2026-09-17 |
+| Updating soon... | | |
 <!--END_ACTIVITY-->
 
 </div>
