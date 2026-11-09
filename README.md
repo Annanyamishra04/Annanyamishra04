@@ -191,7 +191,7 @@ const annanya = {
 <!--START_ACTIVITY-->
 | Repository | Latest commit | Date |
 | --- | --- | --- |
-| [Builder-AI](https://github.com/Annanyamishra04/Builder-AI) | first commit | 2026-11-07 |
+| [Builder-AI](https://github.com/Annanyamishra04/Builder-AI) | Merge pull request #1 from Annanyamishra04/development | 2026-11-09 |
 | [Drivea](https://github.com/Annanyamishra04/Drivea) | Merge pull request #13 from Annanyamishra04/development | 2026-10-27 |
 | [hrone-attendance-api](https://github.com/Annanyamishra04/hrone-attendance-api) | Refine defect descriptions and test results in REVIEW.md | 2026-10-14 |
 | [Thumblify](https://github.com/Annanyamishra04/Thumblify) | Add README for Thumblify project | 2026-10-05 |
