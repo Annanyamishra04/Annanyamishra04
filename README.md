@@ -191,7 +191,7 @@ const annanya = {
 <!--START_ACTIVITY-->
 | Repository | Latest commit | Date |
 | --- | --- | --- |
-| [lingo](https://github.com/Annanyamishra04/lingo) | shadcn setup and buttons page | 2026-11-26 |
+| [lingo](https://github.com/Annanyamishra04/lingo) | Buttons library,Marketing Skeleton,Authentication completed | 2026-11-28 |
 | [Builder-AI](https://github.com/Annanyamishra04/Builder-AI) | Add README.md with project overview and setup instructions | 2026-11-26 |
 | [Drivea](https://github.com/Annanyamishra04/Drivea) | Merge pull request #14 from Annanyamishra04/development | 2026-11-26 |
 | [hrone-attendance-api](https://github.com/Annanyamishra04/hrone-attendance-api) | Refine defect descriptions and test results in REVIEW.md | 2026-10-14 |
